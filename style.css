@@ -1,4 +1,38 @@
+/*
+* Noir: #181a1c
+* Gris sombre: #383a3c
+* Gris moyen: #54585c
+* Gris clair: #82868a
+*/
 .body {
   height: 100%;
   width: 100%;
+  margin: 0;
+}
+header {
+  height: 110px;
+  padding: 5px;
+}
+header>img {
+  max-height: 100px;
+  max-width: 100%;
+  margin: 0;
+}
+.tom_userbar {
+  background-color: #383a3c;
+  color: #fff;
+}
+.tom_main {
+  height: 100%;
+}
+footer>div {
+  background-color: #383a3c;
+  color: #fff;
+  border-top: solid 4px;
+}
+
+
+
+theme-1 footer>div {
+  border-color: #f44
 }
